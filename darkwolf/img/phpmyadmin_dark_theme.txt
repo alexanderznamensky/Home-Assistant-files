@@ -1,0 +1,9 @@
+1. ищем, где расположен phpmyadmin/themes/pmahomme
+sudo find /var/lib/docker/overlay2/ -name pmahomme
+
+2. /var/lib/docker/overlay2/***/diff/var/www/phpmyadmin/themes/pmahomme
+
+3. копируем папку boodark в директорию /var/www/phpmyadmin/themes/
+
+
+
